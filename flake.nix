@@ -10,6 +10,7 @@
 		in {
 			default = (pkgs nixpkgs).python3.withPackages (p: with p; [
 				# add package names here e.g numpy
+				numpy
 			]);
 			mlEdge = (pkgs nixpkgs-2205).python3.withPackages (p: with p; [
 				# add package names here e.g xgboost
